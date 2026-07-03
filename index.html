@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name | Personal Homepage</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Inter,sans-serif;
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.8;
+
+}
+
+a{
+    color:#2b6cb0;
+    text-decoration:none;
+}
+
+.container{
+
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+
+}
+
+header{
+
+    background:white;
+    padding:60px 0;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+
+}
+
+.hero{
+
+    display:flex;
+    align-items:center;
+    gap:50px;
+    flex-wrap:wrap;
+
+}
+
+.avatar{
+
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid #e2e8f0;
+
+}
+
+.info h1{
+
+    font-size:42px;
+
+}
+
+.info h3{
+
+    color:#4a5568;
+    font-weight:500;
+    margin:10px 0;
+
+}
+
+.info p{
+
+    max-width:600px;
+
+}
+
+nav{
+
+    margin-top:25px;
+
+}
+
+nav a{
+
+    margin-right:20px;
+    font-weight:500;
+
+}
+
+section{
+
+    background:white;
+    margin-top:35px;
+    border-radius:15px;
+    padding:40px;
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+
+}
+
+section h2{
+
+    margin-bottom:20px;
+    color:#2b6cb0;
+    border-left:5px solid #2b6cb0;
+    padding-left:15px;
+
+}
+
+.card{
+
+    margin-bottom:20px;
+
+}
+
+ul{
+
+    padding-left:20px;
+
+}
+
+.tag{
+
+    display:inline-block;
+    background:#edf2f7;
+    padding:6px 14px;
+    margin:5px;
+    border-radius:20px;
+    font-size:14px;
+
+}
+
+footer{
+
+    text-align:center;
+    color:#666;
+    padding:40px;
+
+}
+
+@media(max-width:768px){
+
+.hero{
+
+    flex-direction:column;
+    text-align:center;
+
+}
+
+.info{
+
+    text-align:center;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container hero">
+
+<img src="images/avatar.jpg" class="avatar">
+
+<div class="info">
+
+<h1>Your Name</h1>
+
+<h3>Ph.D. Student | Bioinformatics | Metagenomics</h3>
+
+<p>
+
+Welcome to my personal academic homepage.
+
+My research focuses on microbial genomics, metagenomics,
+machine learning, and environmental microbiology.
+
+This website introduces my research, publications,
+projects, and academic activities.
+
+</p>
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#research">Research</a>
+<a href="#publication">Publications</a>
+<a href="#project">Projects</a>
+<a href="#education">Education</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+</div>
+
+</div>
+
+</header>
+
+<div class="container">
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+
+Write a brief introduction here.
+
+Include your current institution,
+research interests,
+academic background,
+career goals,
+or anything you would like visitors to know.
+
+</p>
+
+</section>
+
+<section id="research">
+
+<h2>Research Interests</h2>
+
+<div>
+
+<span class="tag">Metagenomics</span>
+
+<span class="tag">Microbial Ecology</span>
+
+<span class="tag">Bioinformatics</span>
+
+<span class="tag">Machine Learning</span>
+
+<span class="tag">Protein Function Prediction</span>
+
+<span class="tag">Genome Mining</span>
+
+</div>
+
+</section>
+
+<section id="publication">
+
+<h2>Selected Publications</h2>
+
+<div class="card">
+
+<b>Paper Title</b><br>
+
+Journal, Year
+
+</div>
+
+<div class="card">
+
+<b>Paper Title</b><br>
+
+Journal, Year
+
+</div>
+
+<div class="card">
+
+<b>Paper Title</b><br>
+
+Journal, Year
+
+</div>
+
+</section>
+
+<section id="project">
+
+<h2>Projects</h2>
+
+<ul>
+
+<li>Project 1</li>
+
+<li>Project 2</li>
+
+<li>Project 3</li>
+
+</ul>
+
+</section>
+
+<section id="education">
+
+<h2>Education</h2>
+
+<ul>
+
+<li>Ph.D. Student, University</li>
+
+<li>M.S. Student, University</li>
+
+<li>B.S., University</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Honors & Awards</h2>
+
+<ul>
+
+<li>Scholarship</li>
+
+<li>Outstanding Graduate</li>
+
+<li>Academic Award</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>News</h2>
+
+<ul>
+
+<li>2026 — Paper accepted.</li>
+
+<li>2026 — New project started.</li>
+
+<li>2025 — Homepage launched.</li>
+
+</ul>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>
+
+📧 Email: your_email@xxx.edu
+
+</p>
+
+<p>
+
+🐙 GitHub:
+https://github.com/yourname
+
+</p>
+
+<p>
+
+🎓 Google Scholar:
+Coming soon
+
+</p>
+
+<p>
+
+📍 Location:
+Your University
+
+</p>
+
+</section>
+
+</div>
+
+<footer>
+
+© 2026 Your Name · Powered by GitHub Pages
+
+</footer>
+
+</body>
+
+</html>
